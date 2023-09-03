@@ -11,7 +11,7 @@ API_ID = int(getenv("API_ID", "17596251"))
 API_HASH = getenv("API_HASH", "e58343b4c0193e293e391daf97603fcd")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "5824606541:AAFu5wYG0NfDkF5d0DtZ26DvmSHoyPgGvVg")
+BOT_TOKEN = getenv("BOT_TOKEN", "5963562690:AAGzkCpnkuL8R8JoJR3shgzat_et_yutKAg")
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://hny:zara@cluster0.lfe5o.mongodb.net/?retryWrites=true&w=majority")
@@ -22,7 +22,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 1000))
 LOGGER_ID = int(getenv("LOGGER_ID", "-1001603822916"))
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 5680440824))
+OWNER_ID = int(getenv("OWNER_ID", 6079943111))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -78,7 +78,7 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://te.legra.ph/file/fab2a85b0e27491f6e7c6.jpg"
+    "START_IMG_URL", "https://te.legra.ph/file/76d1e1c0e53e370869c9e.jpg"
 )
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://te.legra.ph/file/b8a0c1a00db3e57522b53.jpg"
