@@ -1,4 +1,4 @@
-import re
+uimport re
 from os import getenv
 
 from dotenv import load_dotenv
@@ -11,7 +11,7 @@ API_ID = int(getenv("API_ID", "17596251"))
 API_HASH = getenv("API_HASH", "e58343b4c0193e293e391daf97603fcd")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "5824606541:AAFu5wYG0NfDkF5d0DtZ26DvmSHoyPgGvVg")
+BOT_TOKEN = getenv("BOT_TOKEN", "5963562690:AAGzkCpnkuL8R8JoJR3shgzat_et_yutKAg")
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://hny:zara@cluster0.lfe5o.mongodb.net/?retryWrites=true&w=majority")
