@@ -34,7 +34,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/TeamAloneOp/AloneX")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/AlonePvtGithub/AloneXV2Bot")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
 GIT_TOKEN = getenv("GIT_TOKEN", None)
@@ -46,7 +46,7 @@ SUPPORT_GROUP = getenv(
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
-AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
+AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "True")
 
 AUTO_LEAVE_ASSISTANT_TIME = int(
     getenv("ASSISTANT_LEAVE_TIME", "5400")
