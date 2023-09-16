@@ -34,6 +34,7 @@ def private_panel(_):
             InlineKeyboardButton(text=_["S_B_7"], callback_data="gib_source")],
         ],
         [
-            InlineKeyboardButton(text=_["ST_B_3"], callback_data="LG")]
+            InlineKeyboardButton(text=_["ST_B_3"], callback_data="LG")
+        ],
     ]
     return buttons
