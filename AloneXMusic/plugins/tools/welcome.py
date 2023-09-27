@@ -73,7 +73,7 @@ WELCOME_TEXT = """
 
 DEL_AFTER_WELCOME = True  
 
-@AloneXMusic.on_message(filters.new_chat_members, group=3)
+@app.on_message(filters.new_chat_members, group=3)
 async def _greet(client, message):
     chat = message.chat
     my_id = client.me.id
