@@ -3,7 +3,7 @@ import os
 from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
 from pyrogram import Client, filters
-from AloneXMusic import AloneXMusic
+from AloneXMusic import Alone
 
 
 get_font = lambda font_size, font_path: ImageFont.truetype(font_path, font_size)
